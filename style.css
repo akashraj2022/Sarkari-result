@@ -498,5 +498,69 @@ footer
 	font-family:Arial,Helvetica,sans-serif;
 }
 
+/* Default styling (for larger screens) remains unchanged */
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    #header1, #header2, #header3_1, #header5, #header6_1, #footer2, #text, footer {
+        width: 100%;
+    }
+
+    #headerimg, #headerS, #header2UL, #header4LI, #header6A, #header6B, #header6C, 
+    #header6_2_1, #header6_2_2, #header6_2_3, #header6_3_1, #header6_3_2 {
+        float: none;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #header6A, #header6B, #header6C {
+        border: none;
+    }
+
+    #header6V {
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    /* Navigation menu */
+    #header2UL {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #header2UL li {
+        width: 100%;
+        border-right: none;
+    }
+
+    /* Footer */
+    .footer-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* Latest job section */
+    .col-3-display {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-3-display a {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+
 
 
